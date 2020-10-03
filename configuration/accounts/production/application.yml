@@ -1,2 +1,7 @@
+spring:
+  application:
+    name: accounts
+  profiles:
+    active: production
 server:
  port: 8181
