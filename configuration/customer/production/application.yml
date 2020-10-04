@@ -14,3 +14,9 @@ spring:
       ddl-auto: update
 eureka-client:
   fetchRegistry: true
+  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
